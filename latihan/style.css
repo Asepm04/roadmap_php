@@ -1,0 +1,39 @@
+body{ background:white; color:black;}
+.animasi
+{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    transition: 2s, box-shadow 1s 2s,border-radius 2s 1s,transform 1s 1s;
+    line-height: 100px,100px;
+}
+
+.animasi:hover
+{
+    width: 100px;
+    height: 100px;
+    margin-top:20%;
+    background-color: rgb(181, 249, 9);
+    transform:translate(120px,50px)scale(3);
+    border-radius:50%;
+    box-shadow: 2px 2px 9px  1px;
+    
+}
+.animasi1
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(242, 12, 188);
+    transition: 2s ,border-radius 2s 1s,transform 1s 1s;
+}
+
+.animasi1:hover
+{
+    width: 100px;
+    height: 100px;
+    margin-top:20%;
+    background-color: rgb(181, 249, 9);
+    transform:translate(120px,50px)rotate(75deg)scale(3);
+    border-radius:50%;
+    
+}
